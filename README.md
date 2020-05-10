@@ -22,4 +22,12 @@ The training data comes in the shape of 3 separate files:
 
 **calendar.csv:** dates together with related features like day-of-the week, month, year, and an 3 binary flags for whether the stores in each state allowed purchases with SNAP food stamps at this date (1) or not (0).
 
-### Information regarding the python notebooks 
+### Information regarding the python notebooks
+
+***M5-EDA_BasicStatsModels:*** This notebook do comprehensive ***E***xploratory ***D***ata ***A***nalysis (EDA) for the given time-series database. It also contain various statistical time-series models implementation: Naive, Moving Average, Smooting Exponent(Holt, Exponential), SARIMAX & Prophet
+
+***M5-BasicLSTM:*** This notebook contains the implementation for RNN-LSTM to forecast time-series data.
+
+***M5-LightGBM:*** This notebook contains the implementation for Boosting technique LightGBM to forecast time-series data.
+
+***M5-StatsTimeSeriesBasics:*** This notebook contains the basics of how to identify trends and seasonality in time-series. It contains various method of removing seasonality and trends before applying into statistical models like ARIMA.
